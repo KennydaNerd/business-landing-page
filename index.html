@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Thandi's Braids & Beauty - braids, styling and beauty services in Johannesburg. Book instantly on WhatsApp." />
+  <title>Thandi's Braids & Beauty | Johannesburg</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="nav" id="top">
+    <div class="container nav-inner">
+      <a href="#top" class="logo">Thandi's<span>Braids &amp; Beauty</span></a>
+      <button class="menu-btn" id="menuBtn" aria-label="Toggle menu" aria-expanded="false">&#9776;</button>
+      <nav id="menu" class="menu">
+        <a href="#services">Services</a>
+        <a href="#why">Why Us</a>
+        <a href="#reviews">Reviews</a>
+        <a href="#faq">FAQ</a>
+        <a href="#book" class="btn small">Book Now</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container hero-inner">
+        <p class="eyebrow">Johannesburg &middot; Appointment only</p>
+        <h1>Neat braids. Beautiful finish. <em>Booked in 2 minutes.</em></h1>
+        <p class="lead">Professional braids, styling and beauty services. Pick your service, choose a date and send your booking straight to WhatsApp.</p>
+        <div class="hero-actions">
+          <a href="#book" class="btn">Book on WhatsApp</a>
+          <a href="#services" class="btn outline">See prices</a>
+        </div>
+        <ul class="trust">
+          <li>&#10003; Fast WhatsApp booking</li>
+          <li>&#10003; Clear prices</li>
+          <li>&#10003; Neat, long-lasting styles</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="section" id="services">
+      <div class="container">
+        <h2>Services &amp; Prices</h2>
+        <p class="section-sub">Prices start from the amounts shown. Final price depends on length and size.</p>
+        <div class="cards">
+          <article class="card reveal"><span class="icon">&#10022;</span><h3>Knotless Braids</h3><p>Lightweight, natural-looking and gentle on the scalp.</p><p class="price">From R650</p></article>
+          <article class="card reveal"><span class="icon">&#10022;</span><h3>Cornrows</h3><p>Clean, sharp patterns in classic or creative designs.</p><p class="price">From R250</p></article>
+          <article class="card reveal"><span class="icon">&#10022;</span><h3>Wash &amp; Style</h3><p>Deep cleanse, treatment and a fresh finished style.</p><p class="price">From R200</p></article>
+          <article class="card reveal"><span class="icon">&#10022;</span><h3>Lashes &amp; Brows</h3><p>Soft, natural enhancement for an everyday polished look.</p><p class="price">From R180</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section alt" id="why">
+      <div class="container">
+        <h2>Why clients choose us</h2>
+        <div class="cards three">
+          <article class="card reveal"><h3>On time</h3><p>Your slot is your slot. No long waiting around.</p></article>
+          <article class="card reveal"><h3>Clean &amp; careful</h3><p>Hygienic tools and gentle handling for your hair and skin.</p></article>
+          <article class="card reveal"><h3>Easy booking</h3><p>No calls or forms. Message us and get confirmation on WhatsApp.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="reviews">
+      <div class="container">
+        <h2>What clients say</h2>
+        <p class="section-sub">Sample reviews. Replace these with your real client feedback.</p>
+        <div class="cards three">
+          <blockquote class="card reveal">&#9733;&#9733;&#9733;&#9733;&#9733;<p>"My braids were neat and still looked fresh after 6 weeks. Booking was so easy."</p><cite>Lerato M.</cite></blockquote>
+          <blockquote class="card reveal">&#9733;&#9733;&#9733;&#9733;&#9733;<p>"Fair prices and she finished exactly when she said she would."</p><cite>Naledi K.</cite></blockquote>
+          <blockquote class="card reveal">&#9733;&#9733;&#9733;&#9733;&#9733;<p>"The best wash and style I have had. I am booking again."</p><cite>Zinhle P.</cite></blockquote>
+        </div>
+      </div>
+    </section>
+
+    <section class="section alt" id="book">
+      <div class="container narrow">
+        <h2>Book your appointment</h2>
+        <p class="section-sub">Fill in the form and we will open WhatsApp with your booking already typed out.</p>
+        <form id="bookingForm" class="form" novalidate>
+          <label>Your name
+            <input type="text" id="name" placeholder="e.g. Lerato" required />
+          </label>
+          <label>Service
+            <select id="service" required>
+              <option value="">Choose a service</option>
+              <option>Knotless Braids</option>
+              <option>Cornrows</option>
+              <option>Wash &amp; Style</option>
+              <option>Lashes &amp; Brows</option>
+            </select>
+          </label>
+          <label>Preferred date
+            <input type="date" id="date" required />
+          </label>
+          <label>Notes (optional)
+            <textarea id="notes" rows="3" placeholder="Length, size, style inspiration..."></textarea>
+          </label>
+          <p class="error" id="formError" role="alert"></p>
+          <button type="submit" class="btn full">Send booking on WhatsApp</button>
+        </form>
+      </div>
+    </section>
+
+    <section class="section" id="faq">
+      <div class="container narrow">
+        <h2>Frequently asked questions</h2>
+        <details><summary>How long does a style take?</summary><p>Most braids take 3 to 6 hours depending on size and length. We confirm the time when we reply.</p></details>
+        <details><summary>Do I need to pay a deposit?</summary><p>A small deposit may be needed to secure your slot. We will confirm this on WhatsApp.</p></details>
+        <details><summary>Can I bring my own hair?</summary><p>Yes. Tell us in the notes and we will advise on the amount you need.</p></details>
+        <details><summary>What if I need to reschedule?</summary><p>Message us at least 24 hours before and we will move your booking.</p></details>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <p><strong>Thandi's Braids &amp; Beauty</strong> &middot; Johannesburg, Gauteng</p>
+      <p>Mon - Sat, 08:00 - 18:00 &middot; <a href="#book">Book now</a></p>
+      <p class="small">&copy; <span id="year"></span> Demo website. Built with HTML, CSS and JavaScript.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
