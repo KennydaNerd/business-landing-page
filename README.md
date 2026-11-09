@@ -2,9 +2,7 @@
 
 A fast, mobile-first landing page for a local beauty business. Visitors pick a service and date, and the form opens WhatsApp with their booking already typed out. It is a template I can customise for small business clients.
 
-**Live demo:** [add your link here]
-
-![Screenshot of the landing page](docs/screenshot.png)
+Live demo: https://YOUR-LANDING-PAGE.vercel.app
 
 ## Features
 
@@ -47,7 +45,8 @@ Then update the text, prices and colours (the colour variables are at the top of
 - Accessibility basics (labels, focus, aria attributes)
 - Designing for the South African market, where WhatsApp is the main way customers book
 
-## Author
+## Contact
 
-**Kgothatso Kenny Manyaka**
-[LinkedIn](#) | [GitHub](#) | [Portfolio](#)
+Kgothatso Kenny Manyaka
+Pretoria / Johannesburg, South Africa
+[Email](mailto:manyakakgothatso7@gmail.com) · [LinkedIn](https://linkedin.com/in/kgothatso-manyaka-00036627b) · [GitHub](https://github.com/KennydaNerd)
