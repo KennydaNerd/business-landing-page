@@ -30,7 +30,7 @@ Open `script.js` and change the two values at the top:
 
 ```js
 const CONFIG = {
-  whatsappNumber: '27XXXXXXXXX', // country code + number, no + or spaces
+  whatsappNumber: +27679610186
   businessName: "Thandi's Braids & Beauty",
 };
 ```
