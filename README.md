@@ -2,7 +2,7 @@
 
 A fast, mobile-first landing page for a local beauty business. Visitors pick a service and date, and the form opens WhatsApp with their booking already typed out. It is a template I can customise for small business clients.
 
-Live demo: https://YOUR-LANDING-PAGE.vercel.app
+Live demo: https://business-landing-page-smoky.vercel.app
 
 ## Features
 
